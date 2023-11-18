@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql:///db_ordering
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+logging:
+  level:
+    com.zhy: debug
